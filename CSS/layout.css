@@ -1,0 +1,173 @@
+body
+{
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+.container-fluid
+{
+	box-shadow: 0px 2px 5px #525252;
+}
+#main-Section
+{
+	background-image: url("../IMG/banner/banner-one.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	color: white;
+}
+#left-corner{
+	color: #eee;
+	font-weight: bold;
+	cursor: pointer;
+}
+#motto-align
+{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 30px;
+	
+}
+#motto-align-btn
+{
+	text-align: center;
+	margin-top: 100px;
+}
+@media(max-width: 420px)
+{
+	#motto-align
+	{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 5vw;
+	}
+	#motto-align-btn
+    {
+	margin-top: 100px;
+    }
+	#main-Section
+	{
+		height: 400px;
+		background-image: url("../IMG/banner/banner-mobile-one.jpg");
+	}
+}
+
+.btn
+{
+	cursor: pointer;
+}
+#first-Section
+{
+	background-color: #fff;
+	height: 350px;
+	color: #CBC8C7;
+}
+#heading
+{
+	text-align: center;
+	color: #525252;
+	margin-top: 4vw;
+	font-weight: bold;
+	font-size: 30px;
+}
+#information-1
+{
+	text-align: center;
+	font-size: 18px;
+	color: #767474;
+}
+#second-Section
+{
+	height: 500px;
+	background-color: #eee;
+}
+#btn1
+{
+	margin: 25px;
+	margin-left: 50px; 
+}
+#drp
+{
+	margin-left: 20px;
+}
+
+#a-Section
+{
+	background-color: #5e23dc;
+	padding: 8vw;
+
+}
+#heading-a-type
+{
+	color: #F9F7FA;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+#heading-b-type
+{
+	color: #3A393B;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+#information-a-type
+{
+	color: #F9F7FA;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+#information-b-type
+{
+	color: #7D7D7E;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+@media(max-width: 420px)
+{
+	#heading-a-type ,#heading-b-type
+	{
+	font-size: 20px;
+	}
+
+#information-a-type ,#information-b-type
+	{
+	font-size: 12px;
+	}
+}
+#text-a
+{
+	text-align: center;
+	color: #eee;
+	font-weight: bold;
+}
+#b-Section
+{
+	padding: 8vw;
+	background-color:#eee ;
+}
+#c-Section
+{
+	padding: 8vw;
+	background-color: #f22b68;
+}
+#d-Section
+{
+	padding: 8vw;
+	background-color: #eee;
+}
+#e-Section
+{
+	padding: 8vw;
+	background-color: #1dd38f;
+}
+#f-Section
+{
+	padding: 8vw;
+	background-color: #eee;
+}
