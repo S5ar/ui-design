@@ -4,8 +4,10 @@
 	<title>shortFundly</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="icon" href="IMG/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="CSS/layout.css">
 		<link rel="stylesheet" href="CSS/animate.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	<script
   		src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -15,16 +17,33 @@
 </head>
 <body>
 	<div class="container-fluid" id="main-Section">
-		<div  id="left-corner"><img src="./IMG/logo-red.svg"></div>
+		
+			<div class="row" style="padding: 5px">
+				<div class="col-2" id="left-corner"><img src="./IMG/logo-red.svg"></div>
+				<div class="col-md-8 col-6">
+					<div class="row ">
+			          <div class="col-12 mx-auto">												<!--search-bar-->
+			            	<div  class="row" id="search-bar">
+								<div class="col-10" ><input type="text" class="form-control"></div>
+								<div class="col-2" style="padding: 2px; text-align: center;"><i class="fa fa-search" id="search"></i></div>
+							</div>
+					  </div>
+		            </div>
+				</div>
+				<div class="col-1"><button type="button" class="btn btn-danger">LOGIN</button></div>
+				<div class="col-1"><button type="button" class="btn btn-danger">SIGN UP</button></div>
+			</div>
+		
+
 		<div class="row">
-		<div class="col-md-12 col-sm-12" id="motto-align">A Platform For Creative Film Makers</div>
+		<div class="col-md-12 col-sm-12" id="motto-align">A Platform For Creative Film Makers</div>		 <!--MOtto-->
 		<div class="col-md-6 offset-md-3 col-sm-12" id="motto-align-btn">
 			<button type="button" class="btn btn-danger">SIGN UP</button></div>
 	</div>
 	</div>
 
 	<div class="container-fluid" >
-		<div class="row" id="first-Section">
+		<div class="row" id="first-Section">															<!--First-Section-->
 				<div class="col-md-12 col-sm-12" id="heading" >Traffic Flux</div>
 				<div class="col-md-8 offset-md-2" id="information-1">Ever wondered which is the preferred city for house hunters? Demand Flux Map gives you an inside picture of where house hunters prefer to live. Inbound indicates which cities are attracting traffic, while outbound indicates where urban dwellers are looking to find their next home.</div>
 	    </div>
@@ -32,7 +51,7 @@
 
 	<div class="container-fluid" >
 		
-		<div class="row" id="second-Section">
+		<div class="row" id="second-Section">															<!--second-Section-->
 				<div class="row" id="btn1" >
 					<div class="nav-item">
 					<button type="button" class="btn btn-primary">Inbound</button>
@@ -52,7 +71,7 @@
 	    </div>
 	</div>
 	
-	<div class="container-fluid" >
+	<div class="container-fluid" >																			<!--third-Section-->
 		<div class="row" id="first-Section">
 				<div class="col-md-12 col-sm-12" id="heading" >Heat Maps</div>
 				<div class="col-md-8 offset-md-2" id="information-1">Listing results are so passé. Try graphics instead! Each city is represented on a heat map so you can zero in the locality that suits your demand. Now that is some revolutionary thinking.</div>
@@ -61,7 +80,7 @@
 
 	<div class="container-fluid" >
 		
-		<div class="row" id="second-Section">
+		<div class="row" id="second-Section">																<!--Four-Section-->
 				<div class="row" id="btn1" >
 					<div class="nav-item">
 					<button type="button" class="btn btn-primary">Inbound</button>
@@ -82,7 +101,7 @@
 	</div>
 
 	<div class="container-fluid" >
-		<div class="row" id="first-Section">
+		<div class="row" id="first-Section">																<!--Five-Section-->
 				<div class="col-md-12 col-sm-12" id="heading" >Inventory Demand Supply</div>
 				<div class="col-md-8 offset-md-2" id="information-1">Ever wondered which is the preferred city for house hunters? Demand Flux Map gives you an inside picture of where house hunters prefer to live. Inbound indicates which cities are attracting traffic, while outbound indicates where urban dwellers are looking to find their next home</div>
 	    </div>
@@ -91,7 +110,7 @@
 	<div class="container-fluid" >
 		
 		<div class="row" id="second-Section">
-				<div class="row" id="btn1" >
+				<div class="row" id="btn1" >															<!--six-Section-->
 					<div class="nav-item">
 					<button type="button" class="btn btn-primary">Inbound</button>
 					<button type="button" class="btn btn-primary">Outbound</button>
@@ -112,7 +131,7 @@
 	    </div>
 	</div>
 
-	<div class="container-fluid" id="a-Section" >
+	<div class="container-fluid" id="a-Section" >												<!--a-Section-->
 		<div class="row">
 				<div class="col-md-10 col-sm-12 mx-auto">
 					<div class="row">
@@ -128,7 +147,7 @@
 	    </div>
 	</div>
 
-	<div class="container-fluid" id="b-Section" >
+	<div class="container-fluid" id="b-Section" >													<!--b-Section-->
 		<div class="row" >
 				<div class="col-md-10 col-sm-12 mx-auto">
 					<div class="row">
@@ -145,7 +164,7 @@
 	    </div>
 	</div>
 
-	<div class="container-fluid" id="c-Section">
+	<div class="container-fluid" id="c-Section">														<!--c-Section-->
 		<div class="row" >
 				<div class="col-md-10 col-sm-12 mx-auto">
 					<div class="row">
@@ -163,7 +182,7 @@
 	</div>
 
 	<div class="container-fluid" id="d-Section">
-		<div class="row" >
+		<div class="row" >																			<!--d-Section-->
 				<div class="col-md-10 col-sm-12 mx-auto">
 					<div class="row">
 						<div class="col-md-6 col-sm-12"><img class="img-fluid" src="IMG/film/feeds/film-image-1.jpg"></div>					<!--picture-->
@@ -180,7 +199,7 @@
 	</div>
 
 	<div class="container-fluid" id="e-Section">
-		<div class="row" >
+		<div class="row" >																			<!--e-Section-->
 			<div class="col-md-10 col-sm-12 mx-auto">
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
@@ -195,7 +214,7 @@
 		</div>
 	</div>
 
-	<div class="container-fluid" id="f-Section">
+	<div class="container-fluid" id="f-Section">															<!--f-Section-->
 		
 		<div class="row" >
 				<div class="col-md-10 col-sm-12 mx-auto">
