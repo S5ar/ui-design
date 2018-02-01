@@ -28,7 +28,6 @@ body
 }
 #search-bar
 {
-	
 	border-radius: 5px;
 }
 #search
@@ -42,7 +41,32 @@ body
 	color: #181818;
 	font-size: 25px;
 }
-.btn-danger
+#LSbtn
+{
+	display: inline-block;
+}
+@media(max-width: 420px)
+{
+	#left-corner
+	{
+		font-size: 8px;
+    }	
+    #search-bar
+    {
+	 	font-size: 10px;
+    }
+    #search
+	{
+		font-size: 20px;	
+	}
+	#LSbtn
+	{
+		display: none;
+	}
+
+}
+
+#sign-up
 {
 	font-size: 2.5vh;
 }
